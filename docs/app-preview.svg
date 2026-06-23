@@ -1,0 +1,117 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Visual API Workflow Builder interface preview</title>
+  <desc id="desc">A dark SaaS workflow builder interface with a node library, visual canvas, connected nodes, and settings inspector.</desc>
+  <defs>
+    <linearGradient id="bg" x1="720" y1="0" x2="720" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12151B"/>
+      <stop offset="1" stop-color="#07080B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#86A8FF"/>
+      <stop offset="1" stop-color="#5B8CFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#9AA8BE" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1392" height="852" rx="28" fill="#0D0F12" stroke="white" stroke-opacity="0.08"/>
+
+  <rect x="48" y="48" width="1344" height="64" rx="20" fill="#15181F" stroke="white" stroke-opacity="0.1"/>
+  <rect x="64" y="60" width="40" height="40" rx="12" fill="#1D2639" stroke="#6F97FF" stroke-opacity="0.45"/>
+  <text x="77" y="85" fill="#8EADFF" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">API</text>
+  <text x="118" y="76" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">API Workflow Studio</text>
+  <text x="118" y="96" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="12">Saved locally</text>
+  <rect x="642" y="63" width="118" height="34" rx="17" fill="#101319" stroke="white" stroke-opacity="0.1"/>
+  <circle cx="662" cy="80" r="4" fill="#6EE7B7"/>
+  <text x="676" y="84" fill="#CAD2DE" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600">Success</text>
+  <rect x="1214" y="62" width="66" height="36" rx="11" fill="#171B22" stroke="white" stroke-opacity="0.1"/>
+  <text x="1235" y="84" fill="#D8DEE7" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="650">Save</text>
+  <rect x="1290" y="62" width="86" height="36" rx="11" fill="url(#accent)"/>
+  <text x="1312" y="84" fill="#061127" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="750">Run</text>
+
+  <rect x="48" y="128" width="300" height="724" rx="22" fill="#13161C" stroke="white" stroke-opacity="0.09"/>
+  <text x="70" y="164" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="750" letter-spacing="2">LIBRARY</text>
+  <text x="70" y="190" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Components</text>
+  <text x="70" y="238" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="750" letter-spacing="2">CORE NODES</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="254" width="268" height="74" rx="15" fill="#181C23" stroke="white" stroke-opacity="0.1"/>
+    <rect x="78" y="271" width="40" height="40" rx="12" fill="#202734"/>
+    <circle cx="98" cy="291" r="9" fill="#67E8F9" opacity="0.9"/>
+    <text x="132" y="285" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">API Request</text>
+    <text x="132" y="305" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="12">Fetch JSON from an endpoint</text>
+  </g>
+  <rect x="64" y="338" width="268" height="74" rx="15" fill="#181C23" stroke="white" stroke-opacity="0.08"/>
+  <rect x="78" y="355" width="40" height="40" rx="12" fill="#202734"/>
+  <path d="M94 366L87 375L94 384M102 366L109 375L102 384" stroke="#6EE7B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="132" y="369" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Transform</text>
+  <text x="132" y="389" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="12">Shape incoming data</text>
+  <text x="70" y="462" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="750" letter-spacing="2">LOGIC</text>
+  <rect x="64" y="478" width="268" height="74" rx="15" fill="#181C23" stroke="white" stroke-opacity="0.08"/>
+  <rect x="78" y="495" width="40" height="40" rx="12" fill="#202734"/>
+  <path d="M92 507H101C105 507 108 510 108 514C108 518 105 521 101 521H92M92 507V521M92 514H84" stroke="#F5C451" stroke-width="2" stroke-linecap="round"/>
+  <text x="132" y="509" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Condition</text>
+  <text x="132" y="529" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="12">Route true and false paths</text>
+
+  <rect x="364" y="128" width="700" height="724" rx="22" fill="#090B0F" stroke="white" stroke-opacity="0.09"/>
+  <rect x="364" y="128" width="700" height="724" rx="22" fill="url(#grid)" opacity="0.9"/>
+  <rect x="364" y="128" width="700" height="724" rx="22" fill="none" stroke="white" stroke-opacity="0.07"/>
+  <path d="M534 344C604 344 604 344 674 344" stroke="#7AA2FF" stroke-width="2.5" stroke-linecap="round" opacity="0.88"/>
+  <path d="M836 344C900 344 900 344 964 344" stroke="#7AA2FF" stroke-width="2.5" stroke-linecap="round" opacity="0.88"/>
+  <g filter="url(#shadow)">
+    <rect x="440" y="276" width="248" height="146" rx="16" fill="#171B22" stroke="#67E8F9" stroke-opacity="0.34"/>
+    <rect x="454" y="290" width="36" height="36" rx="12" fill="#202734"/>
+    <circle cx="472" cy="308" r="8" fill="#67E8F9"/>
+    <text x="502" y="306" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">API Request</text>
+    <text x="502" y="324" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.3">REQUEST</text>
+    <line x1="440" y1="340" x2="688" y2="340" stroke="white" stroke-opacity="0.08"/>
+    <text x="454" y="368" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700">GET</text>
+    <text x="454" y="391" fill="#D6DBE2" font-family="SFMono-Regular, Consolas, monospace" font-size="11">https://api.example.com/orders</text>
+    <circle cx="688" cy="344" r="6" fill="#7AA2FF"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="674" y="276" width="248" height="146" rx="16" fill="#171B22" stroke="white" stroke-opacity="0.12"/>
+    <circle cx="674" cy="344" r="6" fill="#67E8F9"/>
+    <rect x="688" y="290" width="36" height="36" rx="12" fill="#202734"/>
+    <path d="M704 300L697 309L704 318M712 300L719 309L712 318" stroke="#6EE7B7" stroke-width="2" stroke-linecap="round"/>
+    <text x="736" y="306" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Transform</text>
+    <text x="736" y="324" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.3">MAPPER</text>
+    <line x1="674" y1="340" x2="922" y2="340" stroke="white" stroke-opacity="0.08"/>
+    <text x="688" y="382" fill="#D6DBE2" font-family="SFMono-Regular, Consolas, monospace" font-size="11">return data.status</text>
+    <circle cx="922" cy="344" r="6" fill="#7AA2FF"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="924" y="276" width="248" height="146" rx="16" fill="#171B22" stroke="#7AA2FF" stroke-opacity="0.48"/>
+    <circle cx="924" cy="344" r="6" fill="#67E8F9"/>
+    <rect x="938" y="290" width="36" height="36" rx="12" fill="#202734"/>
+    <path d="M948 308H963M963 308L957 302M963 308L957 314" stroke="#7AA2FF" stroke-width="2" stroke-linecap="round"/>
+    <text x="986" y="306" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Output</text>
+    <text x="986" y="324" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.3">RESULT</text>
+    <line x1="924" y1="340" x2="1172" y2="340" stroke="white" stroke-opacity="0.08"/>
+    <text x="938" y="374" fill="#D6DBE2" font-family="SFMono-Regular, Consolas, monospace" font-size="11">{ "status": 200 }</text>
+  </g>
+
+  <rect x="1080" y="128" width="312" height="724" rx="22" fill="#13161C" stroke="white" stroke-opacity="0.09"/>
+  <text x="1102" y="164" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="750" letter-spacing="2">INSPECTOR</text>
+  <text x="1102" y="190" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Settings</text>
+  <rect x="1096" y="224" width="280" height="68" rx="16" fill="#181C23" stroke="white" stroke-opacity="0.09"/>
+  <rect x="1110" y="237" width="42" height="42" rx="13" fill="#202734"/>
+  <text x="1164" y="252" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Output</text>
+  <text x="1164" y="273" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="12">success</text>
+  <rect x="1096" y="316" width="280" height="116" rx="16" fill="#181C23" stroke="white" stroke-opacity="0.08"/>
+  <text x="1112" y="346" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="11">Node title</text>
+  <rect x="1112" y="360" width="248" height="40" rx="12" fill="#0B0D11" stroke="white" stroke-opacity="0.1"/>
+  <text x="1126" y="385" fill="#D6DBE2" font-family="Inter, Arial, sans-serif" font-size="12">Output</text>
+  <rect x="1096" y="456" width="280" height="210" rx="16" fill="#181C23" stroke="white" stroke-opacity="0.08"/>
+  <text x="1112" y="486" fill="#8B929E" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="750" letter-spacing="2">RUNTIME</text>
+  <text x="1112" y="512" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">success</text>
+  <rect x="1112" y="536" width="248" height="104" rx="12" fill="#0B0D11" stroke="white" stroke-opacity="0.08"/>
+  <text x="1128" y="566" fill="#AEB6C2" font-family="SFMono-Regular, Consolas, monospace" font-size="11">{</text>
+  <text x="1144" y="588" fill="#AEB6C2" font-family="SFMono-Regular, Consolas, monospace" font-size="11">"status": 200,</text>
+  <text x="1144" y="610" fill="#AEB6C2" font-family="SFMono-Regular, Consolas, monospace" font-size="11">"ok": true</text>
+  <text x="1128" y="632" fill="#AEB6C2" font-family="SFMono-Regular, Consolas, monospace" font-size="11">}</text>
+</svg>
