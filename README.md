@@ -4,7 +4,6 @@
 
 A React + TypeScript developer tool for building API workflows on a visual canvas. Users drag nodes from a library, connect them, edit settings in an inspector, and run a simulated workflow with per-node execution states.
 
-This project is built as a portfolio-quality frontend application: polished SaaS UI, modular React components, typed workflow data, local persistence, and focused tests for the execution engine.
 
 ## Highlights
 
@@ -82,10 +81,6 @@ Current coverage focuses on the workflow engine because it contains the highest-
 - conditional false-branch routing
 - unsupported transform errors
 - cycle detection
-
-## Resume Bullet
-
-Built a visual API workflow builder in React + TypeScript using React Flow and Zustand, featuring draggable custom nodes, live inspector editing, local workflow persistence, and a simulated execution engine with tested traversal, branching, error handling, and cycle detection.
 
 ## What I Would Add Next
 
